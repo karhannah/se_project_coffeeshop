@@ -125,25 +125,54 @@
             <fieldset class="form__fieldset">
               <label for="name" class="form__label">
                 Name *
-                <input type="text" required class="form__input" />
+                <input
+                  type="text"
+                  id="name"
+                  placeholder=" Name Surname"
+                  required
+                  class="form__input"
+                />
               </label>
               <label for="guests" class="form__label">
                 Number of Guests *
-                <input type="number" required class="form__input" />
+                <input
+                  type="number"
+                  id="guests"
+                  placeholder=" 1-8"
+                  required
+                  class="form__input"
+                />
               </label>
               <label for="datetime" class="form__label">
                 Date and Time *
-                <input type="datetime-local" required class="form__input" />
+                <input
+                  type="datetime-local"
+                  id="datetime"
+                  placeholder=" mm/dd/yyyy"
+                  required
+                  class="form__input"
+                />
               </label>
               <label for="email" class="form__label">
                 Your Email *
-                <input type="email" required="form__input" />
+                <input
+                  type="email"
+                  id="email"
+                  placeholder=" email@email.com"
+                  required
+                  class="form__input"
+                />
               </label>
             </fieldset>
             <button class="form__button">Book a Table</button>
-            <label for="book" class="form__label form__label_type_checkbox">
-              <input type="checkbox" required class="form__checkbox" /> I agree
-              with the terms of use *</label
+            <label for="checkbox" class="form__label form__label_type_checkbox">
+              <input
+                type="checkbox"
+                id="checkbox"
+                required
+                class="form__checkbox"
+              />
+              I agree with the terms of use *</label
             >
           </form>
           <img
