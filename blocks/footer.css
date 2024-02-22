@@ -16,8 +16,7 @@
   font-weight: bold;
   font-size: 16px;
   line-height: 20px;
-  margin-left: 40px;
-  margin-bottom: 20px;
+  margin: 0 0 20px 3px;
 }
 
 .footer__logo {
@@ -27,6 +26,9 @@
 
 .footer__list {
   list-style-type: none;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
 }
 
 .footer__list-item {
@@ -37,7 +39,10 @@
   font-weight: normal;
   font-size: 16px;
   line-height: 20px;
-  margin-bottom: 16px;
+}
+
+.footer__list-item:last-of-type {
+  margin-bottom: 0;
 }
 
 .footer__social-link {
@@ -56,4 +61,6 @@
   line-height: 20px;
   padding-left: 80px;
   padding-bottom: 60px;
+  margin-top: 0;
+  margin-bottom: 0;
 }
