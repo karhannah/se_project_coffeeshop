@@ -75,7 +75,6 @@
 }
 
 .header__paragraph:last-of-type {
-  position: flex;
   left: 1200px;
   bottom: 40px;
 }
