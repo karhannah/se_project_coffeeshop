@@ -1,7 +1,7 @@
 .menu {
   padding: 100px 0 100px;
   background-image: url(../images/background_menu.svg);
-  background-image: cover;
+  background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   width: 100%;
@@ -9,8 +9,9 @@
 
 .menu__title {
   text-align: center;
-  margin: 0 0 24px;
-  width: 100%;
+  margin: auto;
+  margin-bottom: 24px;
+  max-width: 780px;
   font-family: "Inter", Arial, sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -20,8 +21,9 @@
 
 .menu__subtitle {
   text-align: center;
-  margin: 0 0 100px;
-  width: 100%;
+  margin: auto;
+  margin-bottom: 100px;
+  max-width: 780px;
   font-family: "Noto Serif", "Times New Roman", serif;
   font-style: normal;
   font-weight: normal;
