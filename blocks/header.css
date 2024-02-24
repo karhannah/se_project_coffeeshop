@@ -42,6 +42,7 @@
   font-weight: normal;
   font-style: normal;
   margin: 28px 0 0;
+  z-index: 2;
 }
 
 .header__image {
@@ -78,4 +79,5 @@
 .header__paragraph:last-of-type {
   left: 1200px;
   bottom: 40px;
+  z-index: 2;
 }
