@@ -52,18 +52,15 @@
 
 .about__content {
   flex-direction: column;
-  max-width: 660px;
   padding-top: 119px;
   padding-bottom: 173px;
 }
 
 .about__paragraph {
-  list-style-type: none;
   color: #fff;
   font-family: "Noto Serif", "Times New Roman", serif;
   font-style: normal;
   font-weight: normal;
-  font-style: normal;
   line-height: 30px;
   font-size: 20px;
   margin: 0 80px 20px 0px;
