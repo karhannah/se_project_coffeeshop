@@ -29,5 +29,6 @@
 }
 
 .nav__link:hover {
+  transition: smooth;
   color: #2f80ed;
 }
