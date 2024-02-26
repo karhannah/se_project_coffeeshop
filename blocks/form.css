@@ -24,7 +24,7 @@
   border-radius: 2px;
   margin-right: 12px;
   height: 20px;
-  width: 20;
+  width: 20px;
 }
 
 .form__label_type_checkbox {
@@ -76,5 +76,7 @@
 .form__button:hover {
   transition: opacity;
   transition: smooth;
+  transition-duration: 2s;
+  transition-timing-function: ease-in-out;
   opacity: 0.7;
 }

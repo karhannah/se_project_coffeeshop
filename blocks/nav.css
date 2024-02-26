@@ -30,5 +30,7 @@
 
 .nav__link:hover {
   transition: smooth;
+  transition-duration: 2s;
+  transition-timing-function: ease-in-out;
   color: #2f80ed;
 }
