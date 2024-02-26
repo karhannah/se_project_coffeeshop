@@ -69,13 +69,12 @@
   line-height: 20px;
   border: 0;
   border-radius: 4px;
-  transition: opacity;
   opacity: 1;
 }
 
 .form__button:hover {
   transition: opacity;
-  transition: smooth;
+  transition: ease-in;
   transition-duration: 2s;
   transition-timing-function: ease-in-out;
   opacity: 0.7;

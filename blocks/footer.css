@@ -53,7 +53,7 @@
 
 .footer__social-link:hover {
   color: #c1c1c1;
-  transition: smooth;
+  transition: ease-in;
   transition-duration: 2s;
   transition-timing-function: ease-in-out;
 }
